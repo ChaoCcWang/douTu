@@ -1,0 +1,38 @@
+QLineEdit {
+    height: 30px;
+    /*border: none;*/
+    border: 1px solid #828282;
+    border-radius: 15px;
+    text-indent: 50px;
+}
+
+QDialog {
+    background: white;
+}
+
+QTableWidget {
+    border: 1px solid #828282;
+    border-radius: 10px;
+}
+
+QTableWidget::item {
+    margin: 3px;
+    background: transparent;
+    border: 1px dotted #828282;
+    border-radius: 8px;
+}
+
+/*QTableWidget:hover {*/
+/*    background: white;*/
+/*    border: 1px dotted #f7a977;*/
+/*}*/
+
+QTableWidget::item:selected {
+    background: white;
+    border: 1px solid #f7804b;
+    border-radius: 8px;
+}
+
+QLineEdit#SearchEdit {
+    width: 300px;
+}

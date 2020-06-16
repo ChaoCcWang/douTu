@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<App>
+    <Server default="adoutu">
+        <Item id="adoutu" firstPage="http://www.adoutu.com/picture/list/1">
+            <key>a[class="col-sm-3"]</key>
+            <key>img</key>
+        </Item>
+    </Server>
+</App>

@@ -1,0 +1,50 @@
+project(gumbo)
+
+set(SOURCE
+        ${CMAKE_SOURCE_DIR}/c-gumbo/attribute.c
+        ${CMAKE_SOURCE_DIR}/c-gumbo/attribute.h
+        ${CMAKE_SOURCE_DIR}/c-gumbo/char_ref.c
+        ${CMAKE_SOURCE_DIR}/c-gumbo/char_ref.h
+        ${CMAKE_SOURCE_DIR}/c-gumbo/char_ref.rl
+        ${CMAKE_SOURCE_DIR}/c-gumbo/error.c
+        ${CMAKE_SOURCE_DIR}/c-gumbo/error.h
+        ${CMAKE_SOURCE_DIR}/c-gumbo/gumbo.h
+        ${CMAKE_SOURCE_DIR}/c-gumbo/insertion_mode.h
+        ${CMAKE_SOURCE_DIR}/c-gumbo/parser.c
+        ${CMAKE_SOURCE_DIR}/c-gumbo/parser.h
+        ${CMAKE_SOURCE_DIR}/c-gumbo/string_buffer.c
+        ${CMAKE_SOURCE_DIR}/c-gumbo/string_buffer.h
+        ${CMAKE_SOURCE_DIR}/c-gumbo/string_piece.c
+        ${CMAKE_SOURCE_DIR}/c-gumbo/string_piece.h
+        ${CMAKE_SOURCE_DIR}/c-gumbo/tag.c
+        ${CMAKE_SOURCE_DIR}/c-gumbo/tag.in
+        ${CMAKE_SOURCE_DIR}/c-gumbo/tag_enum.h
+        ${CMAKE_SOURCE_DIR}/c-gumbo/tag_gperf.h
+        ${CMAKE_SOURCE_DIR}/c-gumbo/tag_sizes.h
+        ${CMAKE_SOURCE_DIR}/c-gumbo/tag_strings.h
+        ${CMAKE_SOURCE_DIR}/c-gumbo/token_type.h
+        ${CMAKE_SOURCE_DIR}/c-gumbo/tokenizer.c
+        ${CMAKE_SOURCE_DIR}/c-gumbo/tokenizer.h
+        ${CMAKE_SOURCE_DIR}/c-gumbo/tokenizer_states.h
+        ${CMAKE_SOURCE_DIR}/c-gumbo/utf8.c
+        ${CMAKE_SOURCE_DIR}/c-gumbo/utf8.h
+        ${CMAKE_SOURCE_DIR}/c-gumbo/util.c
+        ${CMAKE_SOURCE_DIR}/c-gumbo/util.h
+        ${CMAKE_SOURCE_DIR}/c-gumbo/vector.c
+        ${CMAKE_SOURCE_DIR}/c-gumbo/vector.h
+        ${CMAKE_SOURCE_DIR}/gumbo/Document.cpp
+        ${CMAKE_SOURCE_DIR}/gumbo/Document.h
+        ${CMAKE_SOURCE_DIR}/gumbo/Node.cpp
+        ${CMAKE_SOURCE_DIR}/gumbo/Node.h
+        ${CMAKE_SOURCE_DIR}/gumbo/Object.cpp
+        ${CMAKE_SOURCE_DIR}/gumbo/Object.h
+        ${CMAKE_SOURCE_DIR}/gumbo/Parser.cpp
+        ${CMAKE_SOURCE_DIR}/gumbo/Parser.h
+        ${CMAKE_SOURCE_DIR}/gumbo/QueryUtil.cpp
+        ${CMAKE_SOURCE_DIR}/gumbo/QueryUtil.h
+        ${CMAKE_SOURCE_DIR}/gumbo/Selection.cpp
+        ${CMAKE_SOURCE_DIR}/gumbo/Selection.h
+        ${CMAKE_SOURCE_DIR}/gumbo/Selector.cpp
+        ${CMAKE_SOURCE_DIR}/gumbo/Selector.h)
+
+add_library(${PROJECT_NAME} SHARED ${SOURCE})

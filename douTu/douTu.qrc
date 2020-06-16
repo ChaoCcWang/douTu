@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/dt">
+        <file>conf/app.qss</file>
+        <file>translation/douTu.qm</file>
+        <file>translation/qt_zh_CN.qm</file>
+        <file>translation/widgets_zh_CN.qm</file>
+    </qresource>
+</RCC>
