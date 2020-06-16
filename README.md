@@ -1,6 +1,6 @@
 # douTu 斗图神器
-
-<img src="screenshot/doutu.webp" title="Logo"  width="300"  alt="Demo"/>
+  
+  <img src="screenshot/doutu.webp" title="Logo"  width="500"  alt="Demo" />
 
 ## 原理  
   
